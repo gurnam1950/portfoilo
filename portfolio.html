@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurnam - developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts./tatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(89, 81, 81);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: slateblue;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: slateblue;
+            height: 5px;
+            margin: 20px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            width: 20%;
+            font-size: 2.5rem;
+            margin: 70px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .red {
+            color: slateblue;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        #element {
+            color: slateblue;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 2px;
+            background-color: white;
+            margin: 0 130px;
+        }
+
+        .vertical {
+            position: relative;
+            top: 10px;
+            width: 50px;
+        }
+
+        .center {
+            position: relative;
+            top: 100px;
+            width: 200px;
+        }
+        .bold{
+            position: relative;
+            top: 100px;
+            width: 200px;
+            font-size: 25px;
+            color: slateblue;
+
+        }
+        .footer{
+            background-color:rgb(109, 102, 102);
+            display: flex;
+            padding: 20px 80px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style:none ;
+        }
+        .footer> div{
+            width: 300px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color:slateblue;
+            padding: 12px 0;
+        } 
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Gurnam's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">SKILLS</a></li>
+                    <li><a href="/">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,
+                My Name is <span class="red">Gurnam</span>
+                <div>and I am </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg11.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">my personal info </span>
+            <h1>My Educations</h1>
+            <div class="box">
+                <div class="vertical">
+                <div class="bold">(2006-2007)</div>
+                    <div class="center">(Play school)Skyline school Gr.noida</div>
+                </div>
+                <div class="vertical">
+                    <div class="bold">(2007-2016)</div>
+                    <div class="center">Class:-LKG-6TH St.Joseph senior secondary school(ICSE) Gr.noida</div>
+                </div>
+                <div class="vertical">
+                    <div class="bold">(2016-2022)</div>
+                    <div class="center">Class:-7TH-12TH(Commerce) Ascent international school(CBSE) Gr.noida</div>
+                </div>
+                <div class="vertical">
+                    <div class="bold">(2022-2025)</div>
+                    <div class="center">Pursuing BCA From Gl bajaj Institute of Technology & Management Gr.noida</div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-first">
+            <h3>Gurnam's Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li><a href="/">linkdin</a></li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li><a href="/">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li><a href="/">Whatsup</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-rights">
+          copyright &#169; GurnamsPortfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Enthusiast Web Developer', 'Tech Guy', 'Video Editor', 'Gym freak'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
